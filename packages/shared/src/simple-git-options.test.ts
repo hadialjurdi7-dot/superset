@@ -14,6 +14,7 @@ const EXPECTED_SIMPLE_GIT_UNSAFE_OPTION_FLAGS = [
 	"allowUnsafeDiffExternal",
 	"allowUnsafeDiffTextConv",
 	"allowUnsafeEditor",
+	"allowUnsafeExec",
 	"allowUnsafeFilter",
 	"allowUnsafeFsMonitor",
 	"allowUnsafeGitProxy",

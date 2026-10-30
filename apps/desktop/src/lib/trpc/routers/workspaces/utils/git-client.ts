@@ -4,7 +4,7 @@ import {
 } from "node:child_process";
 import { promisify } from "node:util";
 import { USER_GIT_ENV_SIMPLE_GIT_OPTIONS } from "@superset/shared/simple-git-options";
-import simpleGit, { type SimpleGit, type SimpleGitOptions } from "simple-git";
+import { type SimpleGit, type SimpleGitOptions, simpleGit } from "simple-git";
 import { getProcessEnvWithShellPath } from "./shell-env";
 
 const execFileAsync = promisify(execFile);

@@ -7,7 +7,7 @@ import {
 	SIMPLE_GIT_UNSAFE_OPTION_FLAGS,
 	USER_GIT_ENV_SIMPLE_GIT_OPTIONS,
 } from "@superset/shared/simple-git-options";
-import simpleGit, { type SimpleGit } from "simple-git";
+import { type SimpleGit, simpleGit } from "simple-git";
 import { createUserSimpleGit } from "./simple-git";
 
 function makeBlockedGitEnv(workRoot: string): Record<string, string> {
